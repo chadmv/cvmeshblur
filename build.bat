@@ -1,5 +1,5 @@
 @echo off
-FOR %%G IN (2018) DO (call :subroutine "%%G")
+FOR %%G IN (2018, 2019) DO (call :subroutine "%%G")
 GOTO :eof
 
 :subroutine
